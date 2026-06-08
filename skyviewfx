@@ -1,0 +1,243 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - SkyviewFX Weather</title>
+
+<meta name="description" content="Privacy Policy for SkyviewFX Weather, developed and published by CosmicFlow Team.">
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.7;
+    color: #333;
+}
+
+h1 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.header-box {
+    background: #f5f7fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: #0066cc;
+}
+
+.footer {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Privacy Policy for SkyviewFX Weather</h1>
+
+<div class="header-box">
+    <strong>Application:</strong> SkyviewFX Weather<br>
+    <strong>Developer / Publisher:</strong> CosmicFlow Team<br>
+    <strong>Platform:</strong> Android (Google Play Store)<br>
+    <strong>Contact Email:</strong> cosmicflowteam@gmail.com<br>
+    <strong>Last Updated:</strong> June 2026
+</div>
+
+<p>
+This Privacy Policy applies to the Android application
+<strong>SkyviewFX Weather</strong> ("App"), developed and published by
+<strong>CosmicFlow Team</strong>.
+</p>
+
+<p>
+SkyviewFX Weather provides weather forecasts, radar imagery, home screen widgets,
+and optional live wallpaper features. This Privacy Policy explains what information
+may be collected, how it is used, and your choices regarding that information.
+</p>
+
+<h2>Information We Collect</h2>
+
+<p>
+SkyviewFX Weather does not require account registration and does not directly collect
+personally identifiable information such as your name, mailing address, or phone number.
+</p>
+
+<p>
+Depending on how you use the App, the following information may be accessed:
+</p>
+
+<ul>
+<li>Approximate or precise device location (with your permission)</li>
+<li>Weather-related preferences and saved locations</li>
+<li>Diagnostic and crash information provided by Android or Google services</li>
+</ul>
+
+<h2>Location Information</h2>
+
+<p>
+Location permission is used to provide local weather forecasts, weather radar,
+weather alerts, widgets, and live wallpaper weather information for your current area.
+</p>
+
+<p>
+You may deny location access and manually search for locations instead.
+</p>
+
+<h2>Weather Data Providers</h2>
+
+<p>
+SkyviewFX Weather obtains forecast and weather information from third-party providers,
+including:
+</p>
+
+<ul>
+<li>National Weather Service (NWS) for United States weather data</li>
+<li>MET Norway for international weather forecasts</li>
+</ul>
+
+<p>
+Requests sent to weather providers may include geographic coordinates necessary to
+retrieve weather information for your selected location.
+</p>
+
+<h2>Radar Imagery</h2>
+
+<p>
+Radar imagery displayed within the App may be retrieved from publicly available
+weather data services. Network access is required to download radar tiles and weather updates.
+</p>
+
+<h2>Widgets and Live Wallpaper</h2>
+
+<p>
+SkyviewFX Weather may display forecast information, radar imagery, temperature,
+weather conditions, and selected locations through Android widgets and live wallpaper features.
+</p>
+
+<p>
+These features operate locally on your device and do not publicly share your information.
+</p>
+
+<h2>In-App Purchases</h2>
+
+<p>
+SkyviewFX Weather offers optional premium features through Google Play Billing.
+</p>
+
+<p>
+Purchases are securely processed by Google. CosmicFlow Team does not receive or store
+your payment card information.
+</p>
+
+<h2>Third-Party Services</h2>
+
+<p>
+The App may rely on Google services including:
+</p>
+
+<ul>
+<li>Google Play Services</li>
+<li>Google Play Billing</li>
+<li>Google Play Store</li>
+</ul>
+
+<p>
+Information collected by Google services is governed by Google's Privacy Policy:
+</p>
+
+<p>
+<a href="https://policies.google.com/privacy" target="_blank">
+Google Privacy Policy
+</a>
+</p>
+
+<h2>Advertising</h2>
+
+<p>
+SkyviewFX Weather currently does not display third-party advertising.
+</p>
+
+<p>
+If advertising is added in future versions, this Privacy Policy will be updated before implementation.
+</p>
+
+<h2>Data Security</h2>
+
+<p>
+Reasonable measures are used to protect information processed by the App.
+However, no method of electronic transmission or storage can be guaranteed to be completely secure.
+</p>
+
+<h2>Data Retention</h2>
+
+<p>
+SkyviewFX Weather does not maintain user accounts and generally does not store personal information
+on servers controlled by CosmicFlow Team.
+</p>
+
+<p>
+Saved preferences and locations may remain stored locally on your device until removed.
+</p>
+
+<h2>Children's Privacy</h2>
+
+<p>
+SkyviewFX Weather is not directed toward children under the age of 13 and does not knowingly collect
+personal information from children.
+</p>
+
+<h2>Your Choices</h2>
+
+<ul>
+<li>Grant or deny location access through Android settings.</li>
+<li>Delete saved locations within the App.</li>
+<li>Uninstall the App at any time.</li>
+</ul>
+
+<h2>Changes to This Privacy Policy</h2>
+
+<p>
+This Privacy Policy may be updated periodically to reflect changes in features,
+legal requirements, or third-party services.
+</p>
+
+<p>
+Updates will be posted on this page with a revised "Last Updated" date.
+</p>
+
+<h2>Contact Us</h2>
+
+<p>
+If you have questions regarding this Privacy Policy, please contact:
+</p>
+
+<p>
+<strong>CosmicFlow Team</strong><br>
+Developer of SkyviewFX Weather<br>
+Email: cosmicflowteam@gmail.com
+</p>
+
+<div class="footer">
+Copyright © 2026 CosmicFlow Team. All Rights Reserved.
+</div>
+
+</body>
+</html>
+```
