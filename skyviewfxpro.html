@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,8 +56,9 @@ a {
     <strong>Developer / Publisher:</strong> CosmicFlow Team<br>
     <strong>Package Name:</strong> com.btapps.skyviewfxpro<br>
     <strong>Platform:</strong> Android (Google Play Store)<br>
+    <strong>Distribution model:</strong> Paid app (one-time purchase via Google Play)<br>
     <strong>Contact Email:</strong> cosmicflowteam@gmail.com<br>
-    <strong>Last Updated:</strong> June 2026
+    <strong>Last Updated:</strong> July 22, 2026
 </div>
 
 <p>
@@ -70,37 +70,66 @@ This Privacy Policy applies to the Android application
 <p>
 SkyviewFX Pro provides weather forecasts, interactive weather maps, radar imagery,
 home screen widgets, optional live wallpaper features, and severe weather alerts.
-This Privacy Policy explains what information may be collected or accessed, how it is used,
-and your choices regarding that information.
+This Privacy Policy explains what information may be accessed or stored, how it is used,
+how we obtain your consent, and your choices.
 </p>
 
 <h2>Information We Collect</h2>
 
 <p>
-SkyviewFX Pro does not require account registration and does not directly collect
+SkyviewFX Pro does not require account registration and does not collect
 personally identifiable information such as your name, mailing address, or phone number.
 </p>
 
 <p>
-Depending on how you use the App, the following information may be accessed or stored:
+Depending on how you use the App, the following information may be accessed or stored
+<strong>on your device</strong>:
 </p>
 
 <ul>
-<li>Approximate or precise device location (only with your permission)</li>
+<li>Approximate or precise device location (only after you consent and grant Android permission)</li>
 <li>Manually searched or saved city/location names and coordinates</li>
 <li>Weather-related preferences (units, theme, widget settings, map layer choices)</li>
-<li>Local app settings and privacy acceptance status stored on your device</li>
-<li>Diagnostic and crash information provided by Android or Google system services</li>
+<li>Local app settings and disclosure/consent status stored on your device</li>
+<li>Diagnostic and crash information that may be provided by Android or Google system services</li>
 </ul>
 
 <p>
 CosmicFlow Team does not operate its own servers to store user accounts or personal profiles.
 </p>
 
+<h2>In-App Disclosure and Consent</h2>
+
+<p>
+Before you continue using location-based features, SkyviewFX Pro shows an in-app
+<strong>Location disclosure</strong> that explains:
+</p>
+
+<ul>
+<li>What location data may be accessed (precise or approximate device location)</li>
+<li>How location is used (local weather, radar/maps, and optional GPS widgets or live wallpaper)</li>
+<li>That location is not sold or used for advertising</li>
+<li>That you can skip GPS and pick a city manually</li>
+</ul>
+
+<p>
+You must take an affirmative action (for example, tapping <strong>“I understand”</strong>)
+before proceeding. Separately, if you choose a GPS option such as
+<strong>Follow me</strong> or <strong>Use GPS once</strong>, the App shows another
+in-app disclosure immediately before the Android system location permission prompt.
+You may cancel and pick a city instead.
+</p>
+
+<p>
+The App does not access device location until you grant the Android location permission
+(or until you provide a location by searching for a city).
+Navigating away from a disclosure screen without accepting is not treated as consent.
+</p>
+
 <h2>Location Information</h2>
 
 <p>
-Location permission is used to provide local weather forecasts, radar, map layers,
+Location is used only to provide local weather forecasts, radar, map layers,
 weather alerts, widgets, and live wallpaper information for your selected area.
 </p>
 
@@ -109,14 +138,30 @@ You may choose how location is used within the App, including:
 </p>
 
 <ul>
-<li>Following your device location ("Follow me")</li>
+<li>Following your device location (“Follow me”)</li>
 <li>Capturing GPS once and saving a fixed location</li>
-<li>Searching for and selecting a city manually</li>
+<li>Searching for and selecting a city manually (no GPS required)</li>
 </ul>
+
+<p>
+<strong>Foreground location only.</strong>
+SkyviewFX Pro requests Android location permission for use while the App is in use
+(or when a feature you configured, such as a GPS widget refresh or live wallpaper update,
+needs a current position). The App does <strong>not</strong> request or use
+Android’s <strong>background location</strong> permission
+(<code>ACCESS_BACKGROUND_LOCATION</code>).
+</p>
 
 <p>
 You may deny location access in Android settings and still use the App by selecting
 a location manually.
+</p>
+
+<p>
+<strong>Sharing:</strong> Location coordinates may be included in requests to public weather
+and map providers solely to retrieve weather/map data for your chosen area.
+CosmicFlow Team does not sell location data and does not use location for advertising
+or ad tracking.
 </p>
 
 <h2>Weather Data Providers</h2>
@@ -150,7 +195,7 @@ Depending on your location and settings, these may include:
 <li><strong>NOAA NDFD</strong> — forecast map layers such as temperature, precipitation chance, and cloud cover</li>
 <li><strong>NOAA Weather Prediction Center (WPC)</strong> — surface front analysis</li>
 <li><strong>National Hurricane Center (NHC)</strong> — tropical storm tracks, cones, and outlooks</li>
-<li><strong>CARTO</strong> — basemap tiles used behind radar and map layers</li>
+<li><strong>CARTO / OpenStreetMap-style basemaps</strong> — basemap tiles used behind radar and map layers</li>
 </ul>
 
 <p>
@@ -166,8 +211,22 @@ and selected locations through Android home screen widgets and optional live wal
 </p>
 
 <p>
-Widget and wallpaper data is processed locally on your device. These features do not publicly
-share your information. Wallpaper and widget preferences may be stored locally on your device.
+You can set each widget or the live wallpaper independently to:
+</p>
+
+<ul>
+<li><strong>GPS / Follow me</strong> — weather for your device location (requires location permission), or</li>
+<li><strong>A saved/fixed city</strong> — weather for a city you choose (no ongoing GPS needed)</li>
+</ul>
+
+<p>
+App city search and wallpaper/widget GPS settings are separate. Searching a city in the main App
+does not change a GPS-configured widget or wallpaper to that city.
+</p>
+
+<p>
+Widget and wallpaper preferences and cached forecast snapshots are stored locally on your device.
+These features do not publicly share your information.
 </p>
 
 <h2>Notifications</h2>
@@ -182,16 +241,17 @@ You can enable or disable notifications at any time through Android system setti
 or within the App.
 </p>
 
-<h2>In-App Purchases and Premium Features</h2>
+<h2>Paid App and Purchases</h2>
 
 <p>
-SkyviewFX Pro may include optional premium or enhanced features. If in-app purchases
-are offered in a future version, they would be processed securely by Google Play Billing.
+SkyviewFX Pro is distributed as a <strong>paid app</strong> on Google Play
+(one-time purchase at download). Payment is processed by Google Play.
 CosmicFlow Team does not receive or store your payment card information.
 </p>
 
 <p>
-If no paid features are active in your version of the App, no purchase information is collected.
+The App does not currently use in-app purchases or subscriptions.
+If billing options change in a future version, this Privacy Policy will be updated.
 </p>
 
 <h2>Third-Party Services</h2>
@@ -202,8 +262,8 @@ The App may rely on Google services and libraries, including:
 
 <ul>
 <li>Google Play Services (including location services)</li>
-<li>Google Play Store distribution and updates</li>
-<li>Google Maps-related components used for map tile handling</li>
+<li>Google Play Store distribution, paid download, and updates</li>
+<li>Map/location-related libraries used for maps and GPS</li>
 </ul>
 
 <p>
@@ -243,9 +303,9 @@ on servers controlled by CosmicFlow Team.
 </p>
 
 <p>
-Saved preferences, locations, widget settings, and wallpaper choices may remain stored locally
-on your device until you remove them or uninstall the App. Android backup features may also
-store some app data according to your device settings.
+Saved preferences, locations, widget settings, wallpaper choices, and consent status may remain
+stored locally on your device until you remove them or uninstall the App. Android backup features
+may also store some app data according to your device settings.
 </p>
 
 <h2>Children's Privacy</h2>
@@ -258,8 +318,10 @@ personal information from children.
 <h2>Your Choices</h2>
 
 <ul>
-<li>Grant or deny location access through Android settings.</li>
+<li>Read and accept the in-app Location disclosure before continuing.</li>
+<li>Grant or deny location access through the in-app pre-permission disclosure and Android settings.</li>
 <li>Choose manual city search instead of GPS.</li>
+<li>Set widgets and live wallpaper to GPS or a fixed city independently of the main App city.</li>
 <li>Delete saved locations and favorites within the App.</li>
 <li>Enable or disable weather alert notifications.</li>
 <li>Remove widgets or disable live wallpaper at any time.</li>
